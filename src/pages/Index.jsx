@@ -33,7 +33,7 @@ const Index = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        Countdown to Launch Day!
+        Lovable is launching in
       </motion.h1>
       <div className="flex space-x-8 mb-12">
         {Object.entries(timeLeft).map(([unit, value]) => (
